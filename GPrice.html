@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giordano Price</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Giordano Price</h1>
+    <p>Scopri le migliori offerte sui tuoi prodotti preferiti</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input type="text" id="searchInput" placeholder="Cerca un prodotto..." />
+      <button id="searchBtn">Cerca</button>
+    </section>
+
+    <section id="results">
+      <!-- Risultati offerte saranno mostrati qui -->
+    </section>
+  </main>
+
+    <!-- Aggiungi questa sezione sotto la search-section -->
+<section class="recommended-section">
+  <h2>Prodotti consigliati</h2>
+  <div id="recommended-products" class="products-grid"></div>
+  <div class="pagination">
+    <button id="prev-page">Precedente</button>
+    <span id="page-info">Pagina 1</span>
+    <button id="next-page">Successiva</button>
+  </div>
+</section>
+
+  <footer>
+    <p>© 2025 Giordano Price. Tutti i diritti riservati.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
